@@ -28,6 +28,7 @@ public class SetOutputCommand extends Command {
     this.outputSystem = outputSystem;
     this.outputSup = output;
   }
+  public SimpleOutput()
 
   // Called when the command is initially scheduled.
   @Override
