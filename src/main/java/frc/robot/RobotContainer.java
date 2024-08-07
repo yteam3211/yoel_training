@@ -29,7 +29,7 @@ public class RobotContainer {
 
 
   //Autonomus
-  private final ExampleCommand m_autoCommand = new ExampleCommand(m_exampleSubsystem);
+  private final ExampleCommand m_autoCommand = new ExampleCommand(m_exampleSubsystem,0);
   
   // private final ExampleAutoCommand exampleAutoCommand = new ExampleAutoCommand(example_drive_system, navx)
 

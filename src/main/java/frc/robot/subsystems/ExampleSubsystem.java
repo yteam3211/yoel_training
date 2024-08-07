@@ -17,7 +17,7 @@ public class ExampleSubsystem extends SuperSystem {
   public ExampleSubsystem() {
     super("ExampleSubsystem");
     motor = new SuperTalonFXPheonix6(0, getName(), null, null, null, 0, 0, 0);
-    setDefaultCommand(new ExampleCommand(this));
+    setDefaultCommand(new ExampleCommand(this,0));
   }
 
   /** Creates a new ExampleSubsystem. */
